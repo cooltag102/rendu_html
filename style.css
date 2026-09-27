@@ -1,0 +1,60 @@
+body {
+  background-image: url(images/persona-5-city.jpg);
+  background-repeat: no-repeat;
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  
+}
+
+p{
+  color: rgb(255, 0, 0);
+}
+
+.card {
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 25px;
+  max-width: 550px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #ff0000;
+  margin-top: 0;
+  margin-bottom: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+}
+
+.card-image-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image-container{
+ width: 100%;
+  display:flex;
+  flex-direction: row ;
+  align-items: center;
+}
+
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ff0000;
+  
+}
